@@ -1,10 +1,13 @@
+os
 streamlit
 pandas
 numpy
 gspread
-google-auth
-gspread-dataframe
+Credentials
+set_with_dataframe
 load-dotenv
-geopy
+Nominatim
 folium
-streamlit-folium
+GeocoderServiceError
+GeocoderTimedOut
+folium_static
