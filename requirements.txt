@@ -1,0 +1,10 @@
+streamlit
+pandas
+numpy
+gspread
+google-auth
+gspread-dataframe
+python-dotenv
+geopy
+folium
+streamlit-folium
