@@ -12,7 +12,7 @@ import folium
 from streamlit_folium import folium_static
 
 # 環境変数の読み込み
-load_dotenv()
+load_dotenv('./env')
 
 # 環境変数から認証情報を取得
 SPREADSHEET_ID = os.getenv("SPREADSHEET_ID")
