@@ -11,8 +11,11 @@ from geopy.exc import GeocoderTimedOut, GeocoderServiceError
 import folium
 from streamlit_folium import folium_static
 
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# 上記を基準として、データベースファイルへのパスを通す
+env_path = os.path.join(current_dir, '.env')
 # 環境変数の読み込み
-load_dotenv('.env')
+load_dotenv(env_path)
 
 # 環境変数から認証情報を取得
 SPREADSHEET_ID = os.getenv("SPREADSHEET_ID")
